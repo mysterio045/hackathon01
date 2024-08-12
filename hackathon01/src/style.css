@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  "Open Sans";
+}
+header{
+    background-color: rgb(226, 226, 226);
+    background-size: cover;
+    background-repeat: repeat;
+    min-width: 100px;
+}
+.img{
+   margin-top: 80px;
+}
+.input{
+    outline: none;
+    width: 200px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 1.5s;
+}
