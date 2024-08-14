@@ -1,9 +1,27 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+  }
 
+  .sidebar {
+    min-height: 100vh;
+    background-color: #e6e7e9;
+    padding: 30px;
+  }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: lightgreen;
-}
+  .sidebar .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+    color: #1EAE07;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
