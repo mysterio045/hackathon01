@@ -8,7 +8,7 @@ body {
   .sidebar {
     min-height: 100vh;
     background-color: #e6e7e9;
-    padding: 30px;
+    padding: 10px;
   }
 
   .sidebar .nav-link {
@@ -25,3 +25,11 @@ body {
   .main-content {
     padding: 20px;
   }
+ul{
+  font-size: 20px;
+}
+@media (max-width: 768px){
+  body{
+    min-height: 50vh;
+  }
+}
